@@ -1,0 +1,141 @@
+{
+  "name": "genshin-vibes",
+  "displayName": "Genshin Vibes",
+  "description": "A collection of themes inspired by Genshin Impact",
+  "version": "1.0.0",
+  "publisher": "bubaic",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bubaic/genshin-vibes"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "keywords": [
+    "Genshin",
+    "Genshin Vibes",
+    "Vibes",
+    "Themes",
+    "themes"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Genshin Vibes: Eternal Electro Throne",
+        "uiTheme": "vs-dark",
+        "path": "./themes/raiden-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Violet Eternity Glow",
+        "uiTheme": "vs",
+        "path": "./themes/raiden-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Verdant Dreamweave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nahida-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Kusanali Dawnbloom",
+        "uiTheme": "vs",
+        "path": "./themes/nahida-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Geo Contract Vault",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zhongli-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Morax Golden Seal",
+        "uiTheme": "vs",
+        "path": "./themes/zhongli-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Hydrocourt Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/furina-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Fontaine Spotlight",
+        "uiTheme": "vs",
+        "path": "./themes/furina-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Stormrider Breeze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/venti-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Celestine Bardlight",
+        "uiTheme": "vs",
+        "path": "./themes/venti-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Lava Glaze Inferno",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mauvika-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Sunforge Ember",
+        "uiTheme": "vs",
+        "path": "./themes/mauvika-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Emergency Food",
+        "uiTheme": "vs-dark",
+        "path": "./themes/paimon-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Starry Companion",
+        "uiTheme": "vs",
+        "path": "./themes/paimon-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Frost Ritual",
+        "uiTheme": "vs-dark",
+        "path": "./themes/citlali-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Ice Oracle",
+        "uiTheme": "vs",
+        "path": "./themes/citlali-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Veiled Harbinger",
+        "uiTheme": "vs-dark",
+        "path": "./themes/columbina-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Damselette Whisper",
+        "uiTheme": "vs",
+        "path": "./themes/columbina-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Outrider Blaze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/amber-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Pyro Scout",
+        "uiTheme": "vs",
+        "path": "./themes/amber-light.json"
+      }
+    ]
+  },
+  "icon": "assets/logo.png",
+  "scripts": {
+    "conv:icon": "inkscape assets/logo.svg --export-type=png --export-filename=assets/logo.png --export-dpi=600",
+    "theme:build": "bun scripts/build.ts",
+    "theme:watch": "export BUN_WATCH=1; bun --watch scripts/build.ts",
+    "theme:package": "vsce package",
+    "theme:publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@vscode/vsce": "^3.7.1"
+  },
+  "packageManager": "bun@0.5.0"
+}

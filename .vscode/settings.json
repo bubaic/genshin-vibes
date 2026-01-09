@@ -1,0 +1,50 @@
+{
+  "editor.fontFamily": "Ellograph CF",
+
+  "editor.fontLigatures": true,
+  "editor.foldingHighlight": false,
+  "editor.fontWeight": "600",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.25,
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": { "strings": true },
+
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+    "source.fixAll": "always",
+    "formatter.formatWithErrors": "always"
+  },
+
+  "workbench.auxiliaryActivityBar.location": "hidden",
+  "workbench.auxSideBar.location": "hidden",
+
+  "search.followSymlinks": false,
+  "files.autoSave": "afterDelay",
+  "files.watcherExclude": {
+    "**/.git/objects/**": false,
+    "**/.git/subtree-cache/**": false,
+    "**/node_modules/**": true
+  },
+  "files.exclude": {
+    "**/.git.bak": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false,
+    "**/.output": true,
+    "**/.nuxt": true,
+    "**/.yarn": true,
+    ".directory": true,
+    "*-lock.json": true,
+    ".pnp.*": true,
+    ".*rc.*": true,
+    ".*rc": true,
+    "*.log": true
+  }
+}

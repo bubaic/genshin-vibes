@@ -1,0 +1,11 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+scripts/**
+node_modules/**
+*.vsix
+bun.lock
+package-lock.json
+package.json
+
