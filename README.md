@@ -3,12 +3,11 @@
   <p><img src='./assets/logo.png' alt='Genshin Vibes Logo' width='80' /></p>
   <h1>Genshin Vibes ✨</h1>
 
-
   <p>
     <strong>A curated collection of VS Code themes inspired by the aesthetics of Teyvat.</strong>
   </p>
   
-  <p>
+  <div>
     <a href="https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes">
       <img src="https://img.shields.io/visual-studio-marketplace/v/bubaic.genshin-vibes?style=flat-square&label=Version&color=5d6cd9" alt="VS Code Marketplace Version" />
     </a>
@@ -21,7 +20,7 @@
     <a href="https://github.com/bubaic/genshin-vibes/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/bubaic/genshin-vibes?style=flat-square&color=blue" alt="License" />
     </a>
-  </p>
+  </div>
 
   <br />
 
