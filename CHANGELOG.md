@@ -2,7 +2,13 @@
 
 All notable changes to the "genshin-vibes" extension will be documented in this file.
 
-## v1.0.0 - 2026-01-09
+## v1.0.1
+
+- Added Logo background
+- 🐛 Fix: `breadcrumb.foreground` color
+- 🐛 Fix: Token colors for few scopes
+
+## v1.0.0
 
 ### 🎉 Initial Release
 

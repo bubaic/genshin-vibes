@@ -17,7 +17,7 @@
     "breadcrumb.activeSelectionForeground": "#C7D3E6",
     "breadcrumb.background": "#141925",
     "breadcrumb.focusForeground": "#d4a5d4",
-    "breadcrumb.foreground": "#3a4355ff",
+    "breadcrumb.foreground": "#E6ECF580",
     "breadcrumbPicker.background": "#1A2030",
     "button.background": "#7e8fafff",
     "button.foreground": "#0E1118",
@@ -552,7 +552,8 @@
     },
     {
       "scope": [
-        "keyword"
+        "keyword",
+        "keyword.operator"
       ],
       "settings": {
         "foreground": "#d4a5d4e6"
@@ -640,7 +641,7 @@
     {
       "scope": "meta.directive.vue",
       "settings": {
-        "foreground": "#d4a5d4",
+        "foreground": "#d4a5d480",
         "fontStyle": "italic"
       }
     },
@@ -664,10 +665,13 @@
     },
     {
       "scope": [
-        "punctuation"
+        "punctuation",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.accessor"
       ],
       "settings": {
-        "foreground": "#3a4355ff"
+        "foreground": "#B6C0D4"
       }
     },
     {
@@ -688,10 +692,13 @@
     },
     {
       "scope": [
-        "punctuation.definition.tag"
+        "punctuation.definition.tag",
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.generic.begin.html",
+        "punctuation.definition.section.embedded"
       ],
       "settings": {
-        "foreground": "#3a4355ff"
+        "foreground": "#d4a5d480"
       }
     },
     {
@@ -747,9 +754,13 @@
     {
       "scope": [
         "variable.other",
+        "variable.other.property",
+        "variable.other.object.property",
         "variable.language",
         "variable.function",
-        "variable.argument"
+        "variable.argument",
+        "support.type.property-name",
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#E6ECF5"

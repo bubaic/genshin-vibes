@@ -1,9 +1,8 @@
 <div align="center">
 
-  <h1 style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap:8px" >
-    <img src='./assets/logo.png' alt='Genshin Vibes Logo' width='80' />
-    <span>Genshin Vibes ✨</span>
-  </h1>
+  <p><img src='./assets/logo.png' alt='Genshin Vibes Logo' width='80' /></p>
+  <h1>Genshin Vibes ✨</h1>
+
 
   <p>
     <strong>A curated collection of VS Code themes inspired by the aesthetics of Teyvat.</strong>
@@ -14,7 +13,10 @@
       <img src="https://img.shields.io/visual-studio-marketplace/v/bubaic.genshin-vibes?style=flat-square&label=Version&color=5d6cd9" alt="VS Code Marketplace Version" />
     </a>
     <a href="https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes">
-      <img src="https://img.shields.io/visual-studio-marketplace/i/bubaic.genshin-vibes?style=flat-square&label=Installs&color=success" alt="VS Code Marketplace Installs" />
+      <img src="https://img.shields.io/visual-studio-marketplace/i/bubaic.genshin-vibes?style=flat-square&logo=visual-studio-code&label=VS Marketplace&color=007ACC" alt="VS Code Marketplace Installs" />
+    </a>
+    <a href="https://open-vsx.org/extension/bubaic/genshin-vibes">
+      <img src="https://img.shields.io/open-vsx/dt/bubaic/genshin-vibes?style=flat-square&logo=eclipse-ide&label=Open VSX&color=6C33AF" alt="Open VSX Installs" />
     </a>
     <a href="https://github.com/bubaic/genshin-vibes/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/bubaic/genshin-vibes?style=flat-square&color=blue" alt="License" />
@@ -45,18 +47,18 @@ Each theme is **hand-tuned** for long coding sessions:
 
 Currently featuring **20 themes** (10 pairs) covering Archons, Harbingers, and Travelers.
 
-| Character        | 🌑 Dark Variant            | ☀️ Light Variant         |
-| :--------------- | :------------------------- | :----------------------- |
-| ⚡ **Raiden**    | **Eternal Electro Throne** | **Violet Eternity Glow** |
-| 🌿 **Nahida**    | **Verdant Dreamweave**     | **Kusanali Dawnbloom**   |
-| 🔶 **Zhongli**   | **Geo Contract Vault**     | **Morax Golden Seal**    |
-| 💧 **Furina**    | **Hydrocourt Midnight**    | **Fontaine Spotlight**   |
-| 🍃 **Venti**     | **Stormrider Breeze**      | **Celestine Bardlight**  |
-| 🔥 **Mavuika**   | **Lava Glaze Inferno**     | **Sunforge Ember**       |
-| ❄️ **Citlali**   | **Frost Ritual**           | **Ice Oracle**           |
-| 🕊️ **Columbina** | **Veiled Harbinger**       | **Damselette Whisper**   |
-| 🏹 **Amber**     | **Outrider Blaze**         | **Pyro Scout**           |
-| 🍙 **Paimon**    | **Emergency Food**         | **Starry Companion**     |
+| Character        | 🌚 Dark Variant        | 🌞 Light Variant     |
+| :--------------- | :--------------------- | :------------------- |
+| ⚡ **Raiden**    | Eternal Electro Throne | Violet Eternity Glow |
+| 🌿 **Nahida**    | Verdant Dreamweave     | Kusanali Dawnbloom   |
+| 🔶 **Zhongli**   | Geo Contract Vault     | Morax Golden Seal    |
+| 💧 **Furina**    | Hydrocourt Midnight    | Fontaine Spotlight   |
+| 🍃 **Venti**     | Stormrider Breeze      | Celestine Bardlight  |
+| 🔥 **Mavuika**   | Lava Glaze Inferno     | Sunforge Ember       |
+| ❄️ **Citlali**   | Frost Ritual           | Ice Oracle           |
+| 🕊️ **Columbina** | Veiled Harbinger       | Damselette Whisper   |
+| 🏹 **Amber**     | Outrider Blaze         | Pyro Scout           |
+| 🍙 **Paimon**    | Emergency Food         | Starry Companion     |
 
 <br />
 
@@ -87,6 +89,6 @@ Niche characters and Harbingers are welcome. 😜
 ---
 
 <div align="center">
-  <i>Made with ❤️ by a Traveler, for Travelers.</i><br>
-  <sub>MIT License — <b>Ad Astra Abyssosque</b></sub>
+  <span>Made with ❤️ by <i>a Traveler, for Travelers</i>.</span><br>
+  <sub><b>Ad Astra Abyssosque</b></sub>
 </div>

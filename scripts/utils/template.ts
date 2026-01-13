@@ -561,7 +561,7 @@ const extendedColors = (palette: PaletteProps) => ({
   "badge.foreground": palette.bg_darkest,
 
   // Breadcrumbs
-  "breadcrumb.foreground": palette.fg_dim,
+  "breadcrumb.foreground": palette.fg_main_fade,
   "breadcrumb.focusForeground": palette.secondary,
   "breadcrumb.activeSelectionForeground": palette.primary,
   "breadcrumb.background": palette.bg_main,
@@ -701,7 +701,7 @@ const tokenColors = (p: PaletteProps) =>
 
     /* keyword */
     {
-      scope: ["keyword"],
+      scope: ["keyword", "keyword.operator"],
       settings: { foreground: p.secondary_hover },
     },
 
@@ -734,22 +734,35 @@ const tokenColors = (p: PaletteProps) =>
     },
     {
       scope: "meta.directive.vue",
-      settings: { foreground: p.secondary, fontStyle: "italic" },
+      settings: { foreground: p.secondary_alpha, fontStyle: "italic" },
     },
     { scope: "meta.property-name.css", settings: { foreground: p.primary } },
     { scope: "meta.property-value.css", settings: { foreground: p.warning } },
     { scope: "meta.tag.other.html", settings: { foreground: p.tertiary } },
 
     /* punctuation */
-    { scope: ["punctuation"], settings: { foreground: p.fg_dim } },
+    {
+      scope: [
+        "punctuation",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.accessor",
+      ],
+      settings: { foreground: p.fg_muted },
+    },
     { scope: ["punctuation.accessor"], settings: { foreground: p.accent3 } },
     {
       scope: ["punctuation.definition.string"],
       settings: { foreground: p.accent1 },
     },
     {
-      scope: ["punctuation.definition.tag"],
-      settings: { foreground: p.fg_dim },
+      scope: [
+        "punctuation.definition.tag",
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.generic.begin.html",
+        "punctuation.definition.section.embedded",
+      ],
+      settings: { foreground: p.secondary_alpha },
     },
 
     { scope: ["string"], settings: { foreground: p.accent1 } },
@@ -770,9 +783,13 @@ const tokenColors = (p: PaletteProps) =>
     {
       scope: [
         "variable.other",
+        "variable.other.property",
+        "variable.other.object.property",
         "variable.language",
         "variable.function",
         "variable.argument",
+        "support.type.property-name",
+        "meta.object-literal.key",
       ],
       settings: { foreground: p.fg_main },
     },
