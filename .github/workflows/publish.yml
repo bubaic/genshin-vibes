@@ -5,7 +5,7 @@ on:
     branches:
       - master
     paths:
-      - "package.json" # Only run if package.json changes (likely version bump)
+      - "package.json"
 
 jobs:
   publish:
