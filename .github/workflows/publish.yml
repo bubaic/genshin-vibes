@@ -3,7 +3,7 @@ name: Publish Extension
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - "package.json" # Only run if package.json changes (likely version bump)
 
