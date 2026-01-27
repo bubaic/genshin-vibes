@@ -1,7 +1,7 @@
 <div align="center">
 
   <p><img src='./assets/logo.png' alt='Genshin Vibes Logo' width='80' /></p>
-  <h1>Genshin Vibes ✨</h1>
+  <h1>Genshin Vibes</h1>
 
   <p>
     <strong>A curated collection of VS Code themes inspired by the aesthetics of Teyvat.</strong>
@@ -32,32 +32,32 @@
 
 ## 🌌 Overview
 
-**Genshin Vibes** brings the atmosphere of Teyvat's elements and Archons directly to your editor.
+**Genshin Vibes** &mdash; A character-inspired theme system designed around mood, contrast, and long-session readability.
 
-Each theme is **hand-tuned** for long coding sessions:
+What you get:
 
-- ☯️ **Balanced Contrast** – Easy on the eyes, day or night.
-- 🎨 **Expressive Accents** – Colors that pop and identify the character's element.
-- 🌗 **Perfect Pairs** – Every Dark theme has a carefully crafted Light companion.
+- **Balanced Contrast** — comfortable for extended coding sessions
+- **Expressive Accents** — used sparingly to signal meaning and intent
+- **Perfect Pairs** — designed as complements, not inverses
 
 <br />
 
 ## 🎭 Theme Collection
 
-Currently featuring **20 themes** (10 pairs) covering Archons, Harbingers, and Travelers.
+Currently featuring **20 themes** (10 pairs) covering Archons, Harbingers, and Travelers. Each theme uses a distinct status bar color as a character identity anchor.
 
-| Character        | 🌚 Dark Variant        | 🌞 Light Variant     |
-| :--------------- | :--------------------- | :------------------- |
-| ⚡ **Raiden**    | Eternal Electro Throne | Violet Eternity Glow |
-| 🌿 **Nahida**    | Verdant Dreamweave     | Kusanali Dawnbloom   |
-| 🔶 **Zhongli**   | Geo Contract Vault     | Morax Golden Seal    |
-| 💧 **Furina**    | Hydrocourt Midnight    | Fontaine Spotlight   |
-| 🍃 **Venti**     | Stormrider Breeze      | Celestine Bardlight  |
-| 🔥 **Mavuika**   | Lava Glaze Inferno     | Sunforge Ember       |
-| ❄️ **Citlali**   | Frost Ritual           | Ice Oracle           |
-| 🕊️ **Columbina** | Veiled Harbinger       | Damselette Whisper   |
-| 🏹 **Amber**     | Outrider Blaze         | Pyro Scout           |
-| 🍙 **Paimon**    | Emergency Food         | Starry Companion     |
+| Character    | Dark Variant           | Light Variant        |
+| :----------- | :--------------------- | :------------------- |
+| ⚡ Raiden    | Eternal Electro Throne | Violet Eternity Glow |
+| 🌿 Nahida    | Verdant Dreamweave     | Kusanali Dawnbloom   |
+| 🔶 Zhongli   | Geo Contract Vault     | Morax Golden Seal    |
+| 💧 Furina    | Hydrocourt Midnight    | Fontaine Spotlight   |
+| 🍃 Venti     | Stormrider Breeze      | Celestine Bardlight  |
+| 🔥 Mavuika   | Lava Glaze Inferno     | Sunforge Ember       |
+| ❄️ Citlali   | Frost Ritual           | Ice Oracle           |
+| 🕊️ Columbina | Veiled Harbinger       | Damselette Whisper   |
+| 🏹 Amber     | Outrider Blaze         | Pyro Scout           |
+| 🍙 Paimon    | Emergency Food         | Starry Companion     |
 
 <br />
 
@@ -75,19 +75,21 @@ Currently featuring **20 themes** (10 pairs) covering Archons, Harbingers, and T
 code --install-extension bubaic.genshin-vibes
 ```
 
+<br/>
+
 ## 💬 Feedback & Requests
 
 Found a bug? Want a new character or variant?
 
 👉 [Open an Issue on GitHub](https://github.com/bubaic/genshin-vibes/issues)
 
-Niche characters and Harbingers are welcome. 😜
+Requests for niche characters and Harbingers are welcome. 🎎
 
 <br />
 
 ---
 
 <div align="center">
-  <span>Made with ❤️ by <i>a Traveler, for Travelers</i>.</span><br>
+  <span>Made by <i>a Traveler, for Travelers</i>.</span><br>
   <sub><b>Ad Astra Abyssosque</b></sub>
 </div>

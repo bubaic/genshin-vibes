@@ -64,6 +64,7 @@ export type PaletteProps = BasePaletteProps & {
   fg_main_alpha: string;
   fg_main_fade: string;
   bg_secondary_alpha: string;
+  accent1_fade: string; /* added to Reduce warmth slightly */
 
   inlay_bg: string;
   inlay_fg: string;
@@ -95,7 +96,7 @@ export const characterPalettes: Record<
     dark: {
       name: "Eternal Electro Throne",
       type: "dark",
-      primary: "#aa7eee",
+      primary: "#aa7cee",
       secondary: "#d1a6e2",
       tertiary: "#b08fc2",
       accent1: "#f1a7b4",
@@ -108,7 +109,7 @@ export const characterPalettes: Record<
       fg_main: "#e8d5f3",
       fg_muted: "#8c7ca1",
       fg_dim: "#443a58ff",
-      fg_comment: "#68597dff",
+      fg_comment: "#67597d",
       error: "#f1a7b4",
       warning: "#e6c78a",
       success: "#7ed3b0",
@@ -129,7 +130,7 @@ export const characterPalettes: Record<
     light: {
       name: "Violet Eternity Glow",
       type: "light",
-      primary: "#5e1a41",
+      primary: "#601a42",
       secondary: "#6333ae",
       tertiary: "#9c4d78",
       accent1: "#b85c6e",
@@ -142,7 +143,7 @@ export const characterPalettes: Record<
       fg_main: "#4a2e6b",
       fg_muted: "#8b72a9",
       fg_dim: "#a88fb9",
-      fg_comment: "#b4afb8ff",
+      fg_comment: "#baabb4",
       error: "#b85c6e",
       warning: "#9c4d78",
       success: "#4a9a7d",
@@ -166,8 +167,8 @@ export const characterPalettes: Record<
     dark: {
       name: "Verdant Dreamweave",
       type: "dark",
-      primary: "#adff2f",
-      secondary: "#b8d9a3",
+      primary: "#a7ea43",
+      secondary: "#b9daa4",
       tertiary: "#90ee90",
       accent1: "#f0d9b5",
       accent2: "#c8e6c9",
@@ -179,7 +180,7 @@ export const characterPalettes: Record<
       fg_main: "#e8f5d8",
       fg_muted: "#9ac89a",
       fg_dim: "#3a4a3aff",
-      fg_comment: "#6e916eff",
+      fg_comment: "#6f7d59",
       error: "#f0d9b5",
       warning: "#e7ff2fff",
       success: "#90ee90",
@@ -200,7 +201,7 @@ export const characterPalettes: Record<
     light: {
       name: "Kusanali Dawnbloom",
       type: "light",
-      primary: "#4a6d1a",
+      primary: "#4c701a",
       secondary: "#606c38",
       tertiary: "#8c7b4a",
       accent1: "#bc6c25",
@@ -213,7 +214,7 @@ export const characterPalettes: Record<
       fg_main: "#202b20",
       fg_muted: "#4a5a4a",
       fg_dim: "#5c6b5c",
-      fg_comment: "#acbbacff",
+      fg_comment: "#b4baab",
       error: "#ae2012",
       warning: "#9b7a01",
       success: "#2d6a4f",
@@ -237,7 +238,7 @@ export const characterPalettes: Record<
     dark: {
       name: "Geo Contract Vault",
       type: "dark",
-      primary: "#e8c660",
+      primary: "#e8c65e",
       secondary: "#e4c060",
       tertiary: "#d4b085",
       accent1: "#b85c40",
@@ -250,7 +251,7 @@ export const characterPalettes: Record<
       fg_main: "#e8d9b2",
       fg_muted: "#b99c71",
       fg_dim: "#3b2f2e",
-      fg_comment: "#584d3dff",
+      fg_comment: "#7d7459",
       error: "#b85c40",
       warning: "#e8c660",
       success: "#d4b085",
@@ -284,7 +285,7 @@ export const characterPalettes: Record<
       fg_main: "#2c261f",
       fg_muted: "#6b5a4a",
       fg_dim: "#8b7355",
-      fg_comment: "#bbada1ff",
+      fg_comment: "#bab1ab",
       error: "#8b0000",
       warning: "#cd853f",
       success: "#6b5a4a",
@@ -308,7 +309,7 @@ export const characterPalettes: Record<
     dark: {
       name: "Hydrocourt Midnight",
       type: "dark",
-      primary: "#00bfff",
+      primary: "#19b3e6",
       secondary: "#87cefa",
       tertiary: "#40e0d0",
       accent1: "#ff69b4",
@@ -321,7 +322,7 @@ export const characterPalettes: Record<
       fg_main: "#e8f4ff",
       fg_muted: "#add8e6",
       fg_dim: "#2a3d5a",
-      fg_comment: "#4c636bff",
+      fg_comment: "#59747d",
       error: "#ff69b4",
       warning: "#00bfff",
       success: "#40e0d0",
@@ -342,7 +343,7 @@ export const characterPalettes: Record<
     light: {
       name: "Fontaine Spotlight",
       type: "light",
-      primary: "#1e3a5f",
+      primary: "#1f3b61",
       secondary: "#1d4ed8",
       tertiary: "#3730a3",
       accent1: "#be123c",
@@ -355,7 +356,7 @@ export const characterPalettes: Record<
       fg_main: "#0f172a",
       fg_muted: "#475569",
       fg_dim: "#64748b",
-      fg_comment: "#99afcdff",
+      fg_comment: "#abb1ba",
       error: "#be123c",
       warning: "#ea580c",
       success: "#059669",
@@ -379,7 +380,7 @@ export const characterPalettes: Record<
     dark: {
       name: "Stormrider Breeze",
       type: "dark",
-      primary: "#48d1cc",
+      primary: "#47d1cd",
       secondary: "#a3e4d7",
       tertiary: "#76c7ad",
       accent1: "#f0b27a",
@@ -392,7 +393,7 @@ export const characterPalettes: Record<
       fg_main: "#d8f0e8",
       fg_muted: "#7ab8a9",
       fg_dim: "#2a4a4e",
-      fg_comment: "#4a6961ff",
+      fg_comment: "#597d7b",
       error: "#f0b27a",
       warning: "#48d1cc",
       success: "#76c7ad",
@@ -413,8 +414,8 @@ export const characterPalettes: Record<
     light: {
       name: "Celestine Bardlight",
       type: "light",
-      primary: "#a66d32",
-      secondary: "#26834f",
+      primary: "#31a586",
+      secondary: "#26824e",
       tertiary: "#00827d",
       accent1: "#a66d32",
       accent2: "#4a8276",
@@ -426,7 +427,7 @@ export const characterPalettes: Record<
       fg_main: "#1a3a38",
       fg_muted: "#4a8276",
       fg_dim: "#76a599",
-      fg_comment: "#a6c1baff",
+      fg_comment: "#abbab6",
       error: "#bf5530",
       warning: "#a66d32",
       success: "#26834f",
@@ -450,7 +451,7 @@ export const characterPalettes: Record<
     dark: {
       name: "Lava Glaze Inferno",
       type: "dark",
-      primary: "#ff6b35",
+      primary: "#eb7347",
       secondary: "#ffb347",
       tertiary: "#ff8c42",
       accent1: "#ff4757",
@@ -463,7 +464,7 @@ export const characterPalettes: Record<
       fg_main: "#f4d4b2",
       fg_muted: "#a68a6e",
       fg_dim: "#46362dff",
-      fg_comment: "#5a5047ff",
+      fg_comment: "#7d6359",
       error: "#ff4757",
       warning: "#ff6b35",
       success: "#d4a574",
@@ -485,7 +486,7 @@ export const characterPalettes: Record<
       name: "Sunforge Ember",
       type: "light",
       primary: "#ff4757",
-      secondary: "#b5651d",
+      secondary: "#b4641d",
       tertiary: "#ff6b35",
       accent1: "#d14d5a",
       accent2: "#a68a6e",
@@ -497,7 +498,7 @@ export const characterPalettes: Record<
       fg_main: "#5c3a1a",
       fg_muted: "#a68a6e",
       fg_dim: "#ffb347",
-      fg_comment: "#cfc7bfff",
+      fg_comment: "#baabad",
       error: "#d14d5a",
       warning: "#ff8c42",
       success: "#8b7355",
@@ -521,8 +522,8 @@ export const characterPalettes: Record<
     dark: {
       name: "Emergency Food",
       type: "dark",
-      primary: "#ffd700",
-      secondary: "#a8d5e2",
+      primary: "#e6c719",
+      secondary: "#a7d5e2",
       tertiary: "#4a9bb8",
       accent1: "#ff91a4",
       accent2: "#d4b8ff",
@@ -534,7 +535,7 @@ export const characterPalettes: Record<
       fg_main: "#f0f4f8",
       fg_muted: "#8ab4c2",
       fg_dim: "#374d5cff",
-      fg_comment: "#526064ff",
+      fg_comment: "#59757d",
       error: "#ff91a4",
       warning: "#ffd700",
       success: "#a8d5e2",
@@ -557,8 +558,8 @@ export const characterPalettes: Record<
       name: "Starry Companion",
       type: "light",
 
-      primary: "#b39800",
-      secondary: "#6F83E6",
+      primary: "#e7a240",
+      secondary: "#7084e6",
       tertiary: "#378da4",
 
       accent1: "#5b6bff",
@@ -573,7 +574,7 @@ export const characterPalettes: Record<
       fg_main: "#1A2140",
       fg_muted: "#4B5A99",
       fg_dim: "#b8c0dfff",
-      fg_comment: "#bcc1daff",
+      fg_comment: "#abadba",
 
       error: "#D64550",
       warning: "#C89B2C",
@@ -603,7 +604,7 @@ export const characterPalettes: Record<
     dark: {
       name: "Frost Ritual",
       type: "dark",
-      primary: "#87cefa",
+      primary: "#91cdf3",
       secondary: "#4682b4",
       tertiary: "#b0e0e6",
       accent1: "#ffd700",
@@ -616,7 +617,7 @@ export const characterPalettes: Record<
       fg_main: "#e8f4ff",
       fg_muted: "#add8e6",
       fg_dim: "#2a3d5a",
-      fg_comment: "#577377",
+      fg_comment: "#596f7d",
       error: "#ff6b35",
       warning: "#ffd700",
       success: "#90c8ff",
@@ -650,7 +651,7 @@ export const characterPalettes: Record<
       fg_main: "#1e3a5f",
       fg_muted: "#475569",
       fg_dim: "#8898af",
-      fg_comment: "#a6adb7",
+      fg_comment: "#abb1ba",
       error: "#c2410c",
       warning: "#f97316",
       success: "#10b981",
@@ -675,32 +676,32 @@ export const characterPalettes: Record<
       name: "Veiled Harbinger",
       type: "dark",
 
-      primary: "#C7D3E6", // porcelain blue-white
-      secondary: "#d4a5d4", // muted choir blue or #9FAEC8
-      tertiary: "#7e8fafff", // cold steel blue #6F7E9A
+      primary: "#c7d3e6",
+      secondary: "#d4a5d4", // or #9FAEC8
+      tertiary: "#7e8faf", // cold steel blue #6F7E9A
 
-      accent1: "#B8C9FF", // ethereal glow blue
-      accent2: "#E6A3B5", // soft rose (danger, but polite)
-      accent3: "#967ab7", // faded violet
+      accent1: "#B8C9FF",
+      accent2: "#E6A3B5",
+      accent3: "#967ab7",
 
-      bg_darkest: "#0E1118", // abyssal midnight
-      bg_main: "#141925", // main editor bg
-      bg_panel: "#1A2030", // panels / sidebar
-      bg_secondary: "#20273A", // inputs / dropdowns
+      bg_darkest: "#0E1118",
+      bg_main: "#141925",
+      bg_panel: "#1A2030",
+      bg_secondary: "#20273A",
 
       fg_main: "#E6ECF5",
       fg_muted: "#B6C0D4",
       fg_dim: "#3a4355ff",
-      fg_comment: "#4f545e",
+      fg_comment: "#59677d",
 
-      error: "#E06C75", // controlled crimson
-      warning: "#E5C07B", // muted gold
-      success: "#98C379", // soft green
-      success_subtle: "#5F7F6A", // faded success
+      error: "#E06C75",
+      warning: "#E5C07B",
+      success: "#98C379",
+      success_subtle: "#5F7F6A",
 
-      selection_bg: "#2A3452", // calm, readable selection
-      line_highlight: "#1C2233", // current line
-      indent_guide: "#2A3044", // subtle structure
+      selection_bg: "#2A3452",
+      line_highlight: "#1C2233",
+      indent_guide: "#2A3044",
 
       error_input_bg: "#2A1A22",
       warning_input_bg: "#2A2418",
@@ -720,7 +721,7 @@ export const characterPalettes: Record<
       name: "Damselette Whisper",
       type: "light",
 
-      primary: "#4A5C7A",
+      primary: "#495a79",
       secondary: "#906b99",
       tertiary: "#8a95b3",
 
@@ -736,7 +737,7 @@ export const characterPalettes: Record<
       fg_main: "#634d9a",
       fg_muted: "#4A556F",
       fg_dim: "#99a0b0",
-      fg_comment: "#afb4bf",
+      fg_comment: "#abb0ba",
 
       error: "#C94A5A",
       warning: "#B8892E",
@@ -766,7 +767,7 @@ export const characterPalettes: Record<
     dark: {
       name: "Outrider Blaze",
       type: "dark",
-      primary: "#c72107ff",
+      primary: "#c52007",
       secondary: "#ffce89",
       tertiary: "#ff8c42",
       accent1: "#cb0011",
@@ -779,7 +780,7 @@ export const characterPalettes: Record<
       fg_main: "#f4d4b2",
       fg_muted: "#d9c2a3",
       fg_dim: "#553e30",
-      fg_comment: "#754848ff",
+      fg_comment: "#7d5e59",
       error: "#ff4757",
       warning: "#ff6b35",
       success: "#ffb347",
@@ -800,7 +801,7 @@ export const characterPalettes: Record<
     light: {
       name: "Pyro Scout",
       type: "light",
-      primary: "#dd2535",
+      primary: "#dd2736",
       secondary: "#d13d07",
       tertiary: "#cb7f13",
       accent1: "#c36e44",
@@ -813,7 +814,7 @@ export const characterPalettes: Record<
       fg_main: "#5c3a1a",
       fg_muted: "#896d51",
       fg_dim: "#ae9c7d",
-      fg_comment: "#896d51",
+      fg_comment: "#baabad",
       error: "#d03c3c",
       warning: "#d13d07",
       success: "#c36e44",

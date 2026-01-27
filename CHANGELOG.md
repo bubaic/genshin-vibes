@@ -2,6 +2,12 @@
 
 All notable changes to the "genshin-vibes" extension will be documented in this file.
 
+## v1.0.2
+
+- **Syntax Refinement**: Optimized string saturation for enhanced legibility across all character themes.
+- **Token Consistency**: Standardized comment contrast ratios to ensure a uniform reading experience.
+- **UI Polish**: Adjusted status bar color saturation for a more balanced and cohesive interface in specific cases.
+
 ## v1.0.1
 
 - Added Logo background

@@ -171,7 +171,7 @@
     "editorOverviewRuler.background": "#f8fafc",
     "editorOverviewRuler.border": "#8898af66",
     "editorOverviewRuler.bracketMatchForeground": "#5abed4",
-    "editorOverviewRuler.commentForeground": "#a6adb780",
+    "editorOverviewRuler.commentForeground": "#abb1ba80",
     "editorOverviewRuler.commentUnresolvedForeground": "#f9731680",
     "editorOverviewRuler.currentContentForeground": "#10b981",
     "editorOverviewRuler.deletedForeground": "#c2410c80",
@@ -219,7 +219,7 @@
     "gitDecoration.addedResourceForeground": "#10b981",
     "gitDecoration.conflictingResourceForeground": "#f97316",
     "gitDecoration.deletedResourceForeground": "#c2410c",
-    "gitDecoration.ignoredResourceForeground": "#a6adb7",
+    "gitDecoration.ignoredResourceForeground": "#abb1ba",
     "gitDecoration.modifiedResourceForeground": "#5abed4",
     "gitDecoration.renamedResourceForeground": "#1e3a5f",
     "gitDecoration.stageDeletedResourceForeground": "#c2410c",
@@ -471,7 +471,7 @@
         "comment"
       ],
       "settings": {
-        "foreground": "#a6adb7",
+        "foreground": "#abb1ba",
         "fontStyle": "italic"
       }
     },
@@ -706,7 +706,7 @@
         "string"
       ],
       "settings": {
-        "foreground": "#3FA7FF"
+        "foreground": "#3FA7FFcc"
       }
     },
     {
@@ -736,6 +736,14 @@
     },
     {
       "scope": [
+        "support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#1e3a5f80"
+      }
+    },
+    {
+      "scope": [
         "support.function"
       ],
       "settings": {
@@ -759,7 +767,6 @@
         "variable.language",
         "variable.function",
         "variable.argument",
-        "support.type.property-name",
         "meta.object-literal.key"
       ],
       "settings": {

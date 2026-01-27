@@ -765,7 +765,7 @@ const tokenColors = (p: PaletteProps) =>
       settings: { foreground: p.secondary_alpha },
     },
 
-    { scope: ["string"], settings: { foreground: p.accent1 } },
+    { scope: ["string"], settings: { foreground: p.accent1_fade } },
     {
       scope: ["storage.type", "storage.modifier"],
       settings: { foreground: p.primary },
@@ -775,10 +775,15 @@ const tokenColors = (p: PaletteProps) =>
     { scope: ["support"], settings: { foreground: p.primary } },
     { scope: ["support.constant"], settings: { foreground: p.warning } },
     {
+      scope: ["support.type.property-name"],
+      settings: { foreground: p.fg_main_fade },
+    },
+    {
       scope: ["support.function"],
       settings: { foreground: p.secondary, fontStyle: "italic" },
     },
 
+    /* variable */
     { scope: ["variable"], settings: { foreground: p.fg_main } },
     {
       scope: [
@@ -788,7 +793,6 @@ const tokenColors = (p: PaletteProps) =>
         "variable.language",
         "variable.function",
         "variable.argument",
-        "support.type.property-name",
         "meta.object-literal.key",
       ],
       settings: { foreground: p.fg_main },

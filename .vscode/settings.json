@@ -41,10 +41,13 @@
     "**/.nuxt": true,
     "**/.yarn": true,
     ".directory": true,
-    "*-lock.json": true,
+    // "*-lock.json": true,
     ".pnp.*": true,
     ".*rc.*": true,
     ".*rc": true,
     "*.log": true
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
   }
 }

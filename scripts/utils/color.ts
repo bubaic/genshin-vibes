@@ -9,8 +9,8 @@ function cleanHex(hex: string): string {
   return clean.length == 8
     ? "#" + clean.slice(0, 6)
     : clean.length == 4
-    ? "#" + clean[0] + clean[0] + clean[1] + clean[1] + clean[2] + clean[2]
-    : "#" + clean;
+      ? "#" + clean[0] + clean[0] + clean[1] + clean[1] + clean[2] + clean[2]
+      : "#" + clean;
 }
 
 function alpha(hex: string, opacity: number = 1): string {
@@ -42,6 +42,7 @@ export function generatePalette(base: BasePaletteProps) {
     bg_secondary_alpha: alpha(base.bg_secondary, 0.5),
     fg_main_alpha: alpha(base.fg_main, 0.8),
     secondary_hover: alpha(base.secondary, 0.9),
+    accent1_fade: alpha(base.accent1, 0.8),
 
     // Subtle backgrounds
     primary_subtle: alpha(base.primary, 0.27),
