@@ -7,19 +7,17 @@
   "editor.fontSize": 14,
   "editor.lineHeight": 1.25,
   "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
+  "editor.renderLineHighlight": "all",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.quickSuggestions": { "strings": true },
-
+  "editor.colorDecorators": true,
+  "editor.colorDecoratorsActivatedOn": "clickAndHover",
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always",
     "source.fixAll": "always",
     "formatter.formatWithErrors": "always"
   },
-
-  "workbench.auxiliaryActivityBar.location": "hidden",
-  "workbench.auxSideBar.location": "hidden",
 
   "search.followSymlinks": false,
   "files.autoSave": "afterDelay",
@@ -47,7 +45,17 @@
     ".*rc": true,
     "*.log": true
   },
+
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.colorDecorators": true
+  },
+  "[typescript]": {
+    "editor.colorDecorators": true
   }
 }

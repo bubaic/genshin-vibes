@@ -1,3 +1,5 @@
+export type Prettify<T> = { [K in keyof T]: T[K] };
+
 // Base palette properties that are manually defined
 export type BasePaletteProps = {
   name: string;
@@ -25,67 +27,69 @@ export type BasePaletteProps = {
 };
 
 // Complete palette including generated properties
-export type PaletteProps = BasePaletteProps & {
-  error_subtle: string;
-  warning_subtle: string;
-  success_subtle: string;
+export type PaletteProps = Prettify<
+  BasePaletteProps & {
+    error_subtle: string;
+    warning_subtle: string;
+    success_subtle: string;
 
-  success_merge: string;
-  primary_merge: string;
-  success_bg: string;
-  error_bg: string;
+    success_merge: string;
+    primary_merge: string;
+    success_bg: string;
+    error_bg: string;
 
-  selection_bg: string;
-  selection_inactive: string;
-  line_highlight: string;
-  indent_guide: string;
-  error_input_bg: string;
-  warning_input_bg: string;
-  info_input_bg: string;
-  shadow: string;
-  transparent: string;
-  primary_subtle: string;
-  border_main: string;
-  border_subtle: string;
-  border_muted: string;
-  secondary_hover: string;
+    selection_bg: string;
+    selection_inactive: string;
+    line_highlight: string;
+    indent_guide: string;
+    error_input_bg: string;
+    warning_input_bg: string;
+    info_input_bg: string;
+    shadow: string;
+    transparent: string;
+    primary_subtle: string;
+    border_main: string;
+    border_subtle: string;
+    border_muted: string;
+    secondary_hover: string;
 
-  // Alpha variants
-  primary_alpha: string;
-  secondary_alpha: string;
-  tertiary_alpha: string;
-  accent1_alpha: string;
-  accent2_alpha: string;
-  accent3_alpha: string;
-  error_alpha: string;
-  warning_alpha: string;
-  success_alpha: string;
-  comment_alpha: string;
-  fg_main_alpha: string;
-  fg_main_fade: string;
-  bg_secondary_alpha: string;
-  accent1_fade: string; /* added to Reduce warmth slightly */
+    // Alpha variants
+    primary_alpha: string;
+    secondary_alpha: string;
+    tertiary_alpha: string;
+    accent1_alpha: string;
+    accent2_alpha: string;
+    accent3_alpha: string;
+    error_alpha: string;
+    warning_alpha: string;
+    success_alpha: string;
+    comment_alpha: string;
+    fg_main_alpha: string;
+    fg_main_fade: string;
+    bg_secondary_alpha: string;
+    accent1_fade: string; /* added to Reduce warmth slightly */
 
-  inlay_bg: string;
-  inlay_fg: string;
-  inlay_param: string;
-  inlay_type: string;
+    inlay_bg: string;
+    inlay_fg: string;
+    inlay_param: string;
+    inlay_type: string;
 
-  list_active_bg: string;
-  list_focus_bg: string;
+    list_active_bg: string;
+    list_focus_bg: string;
 
-  scrollbar_bg: string;
-  scrollbar_hover: string;
+    scrollbar_bg: string;
+    scrollbar_hover: string;
 
-  ansi_bright_black: string;
-  ansi_bright_red: string;
-  ansi_bright_green: string;
-  ansi_bright_yellow: string;
-  ansi_bright_blue: string;
-  ansi_bright_magenta: string;
-  ansi_bright_cyan: string;
-  ansi_bright_white: string;
-};
+    ansi_bright_black: string;
+    ansi_bright_red: string;
+    ansi_bright_green: string;
+    ansi_bright_yellow: string;
+    ansi_bright_blue: string;
+    ansi_bright_magenta: string;
+    ansi_bright_cyan: string;
+    ansi_bright_white: string;
+  }
+>;
 
 // Character Palette Definitions
 export const characterPalettes: Record<

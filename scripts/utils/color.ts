@@ -3,7 +3,7 @@ import type { BasePaletteProps, PaletteProps } from "./palettes";
 /**
  * Ensures a hex string is 6 digits by stripping existing alpha if present.
  */
-function cleanHex(hex: string): string {
+export function cleanHex(hex: string): string {
   const clean = hex.startsWith("#") ? hex.slice(1) : hex;
 
   return clean.length == 8
@@ -13,7 +13,7 @@ function cleanHex(hex: string): string {
       : "#" + clean;
 }
 
-function alpha(hex: string, opacity: number = 1): string {
+export function alpha(hex: string, opacity: number = 1): string {
   const base = cleanHex(hex),
     alphaHex = Math.round(opacity * 255)
       .toString(16)
@@ -73,8 +73,8 @@ export function generatePalette(base: BasePaletteProps) {
     inlay_type: alpha(base.primary, 0.5),
 
     // List
-    list_active_bg: alpha(base.tertiary, 0.4),
-    list_focus_bg: alpha(base.tertiary, 0.4),
+    list_active_bg: alpha(base.tertiary, 0.15),
+    list_focus_bg: alpha(base.tertiary, 0.2),
 
     // merge
     success_merge: alpha(base.success, 0.27),
