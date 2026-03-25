@@ -1,6 +1,13 @@
-# Change Log
+# Changelog
 
 All notable changes to the "genshin-vibes" extension will be documented in this file.
+
+## v1.0.3
+
+- Improved terminal & editor cursor, active tab styling with accent-based backgrounds
+- Adjusted list active and focus background opacities with added focus outline for better visual hierarchy
+- Lighten editor & terminal selection background
+- Lighten JSON property name `support.type.property-name.json`
 
 ## v1.0.2
 

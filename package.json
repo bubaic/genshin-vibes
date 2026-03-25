@@ -1,7 +1,7 @@
 {
   "name": "genshin-vibes",
   "displayName": "Genshin Vibes",
-  "description": "A collection of themes inspired by Genshin Impact",
+  "description": "A curated collection of dark and light VSCode themes inspired by the aesthetics of Teyvat from Genshin Impact",
   "version": "1.0.2",
   "publisher": "bubaic",
   "repository": {
@@ -127,7 +127,7 @@
   },
   "icon": "assets/logo.png",
   "scripts": {
-    "conv:icon": "inkscape assets/logo.svg --export-type=png --export-filename=assets/logo.png --export-dpi=300",
+    "conv:icon": "inkscape assets/logo.svg --export-type=png --export-filename=assets/logo.png --export-dpi=600",
     "theme:build": "bun scripts/build.ts",
     "theme:watch": "export BUN_WATCH=1; bun --watch scripts/build.ts",
     "theme:package": "vsce package",

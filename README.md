@@ -1,25 +1,21 @@
 <div align="center">
 
-  <p><img src='./assets/logo.png' alt='Genshin Vibes Logo' width='80' /></p>
+  <div>
+    <img src='./assets/logo.png' alt='Genshin Vibes Logo' width='80' />
+  </div>
   <h1>Genshin Vibes</h1>
 
   <p>
-    <strong>A curated collection of VS Code themes inspired by the aesthetics of Teyvat.</strong>
+    <strong>A curated collection of dark and light VS Code themes inspired by the aesthetics of Teyvat from Genshin Impact.</strong>
   </p>
-  
-  <div>
-    <a href="https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes">
-      <img src="https://img.shields.io/visual-studio-marketplace/v/bubaic.genshin-vibes?style=flat-square&label=Version&color=5d6cd9" alt="VS Code Marketplace Version" />
-    </a>
-    <a href="https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes">
-      <img src="https://img.shields.io/visual-studio-marketplace/i/bubaic.genshin-vibes?style=flat-square&logo=visual-studio-code&label=VS Marketplace&color=007ACC" alt="VS Code Marketplace Installs" />
-    </a>
-    <a href="https://open-vsx.org/extension/bubaic/genshin-vibes">
-      <img src="https://img.shields.io/open-vsx/dt/bubaic/genshin-vibes?style=flat-square&logo=eclipse-ide&label=Open VSX&color=6C33AF" alt="Open VSX Installs" />
-    </a>
-    <a href="https://github.com/bubaic/genshin-vibes/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/bubaic/genshin-vibes?style=flat-square&color=blue" alt="License" />
-    </a>
+
+  <div style='dsplay: gap: 4px;'>
+
+[![Version](https://img.shields.io/visual-studio-marketplace/v/bubaic.genshin-vibes?label=Version&color=5d6cd9)](https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes)
+[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/bubaic.genshin-vibes?logo=vscodium&label=VS%20Marketplace&color&style=flat)](https://marketplace.visualstudio.com/items?itemName=bubaic.genshin-vibes)
+[![Open VSX Installs](https://img.shields.io/open-vsx/dt/bubaic/genshin-vibes?style=flat&logo=eclipse-ide&label=Open%20VSX&color=6C33AF)](https://open-vsx.org/extension/bubaic/genshin-vibes)
+[![License](https://img.shields.io/github/license/bubaic/genshin-vibes?style=flat&color=blue&label=License)](https://github.com/bubaic/genshin-vibes/blob/main/LICENSE)
+
   </div>
 
   <br />
