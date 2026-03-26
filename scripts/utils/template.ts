@@ -24,7 +24,7 @@ const coreColors = (p: PaletteProps) => ({
   "editor.background": p.bg_main,
   "editor.foreground": p.fg_main,
   "editor.selectionBackground":
-    p.type == "dark" ? alpha(p.selection_bg, 0.2) : alpha(p.selection_bg, 0.15),
+    p.type == "dark" ? alpha(p.primary, 0.2) : alpha(p.primary, 0.15),
   "editor.selectionForeground": p.fg_dim,
   "editor.lineHighlightBackground": p.line_highlight,
   "editorLineNumber.foreground": p.fg_dim,
@@ -235,7 +235,7 @@ const extendedColors = (p: PaletteProps) => ({
   "terminal.ansiBrightYellow": p.ansi_bright_yellow,
   "terminal.dropBackground": p.border_subtle,
   "terminal.selectionBackground":
-    p.type == "dark" ? alpha(p.selection_bg, 0.2) : alpha(p.selection_bg, 0.15),
+    p.type == "dark" ? alpha(p.primary, 0.2) : alpha(p.primary, 0.15),
   "terminal.tab.activeBorder": p.fg_main,
   "terminalCursor.background": p.fg_main,
   "terminalCursor.foreground": p.accent3,

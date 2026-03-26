@@ -57,14 +57,10 @@ export function generatePalette(base: BasePaletteProps) {
         : alpha(base.primary, 0.2),
     border_subtle: alpha(base.fg_dim, 0.2),
     border_muted: alpha(base.fg_dim, 0.4),
-    selection_bg: alpha(base.primary, 0.53),
+
+    selection_inactive: alpha(base.bg_secondary, 0.8),
     line_highlight: alpha(base.fg_dim, 0.08),
     indent_guide: alpha(base.fg_dim, 0.4),
-
-    // Input states
-    error_input_bg: base.type === "dark" ? "#2a1f1a" : "#fff0e6",
-    warning_input_bg: base.type === "dark" ? "#4a3a5c" : "#fff8e8",
-    info_input_bg: base.type === "dark" ? "#1a2f38" : "#ebf2ff",
 
     // inlay hints
     inlay_bg: alpha(base.bg_secondary, 0.5),
