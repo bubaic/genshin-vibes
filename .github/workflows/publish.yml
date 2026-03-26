@@ -6,6 +6,8 @@ on:
       - master
     paths:
       - "package.json"
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 permissions:
