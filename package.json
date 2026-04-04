@@ -2,7 +2,7 @@
   "name": "genshin-vibes",
   "displayName": "Genshin Vibes",
   "description": "A curated collection of dark and light VSCode themes inspired by the aesthetics of Teyvat from Genshin Impact",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "publisher": "bubaic",
   "repository": {
     "type": "git",
@@ -122,6 +122,26 @@
         "label": "Genshin Vibes: Pyro Scout",
         "uiTheme": "vs",
         "path": "./themes/amber-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Knave's Shadow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arlecchino-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Dire Balemoon",
+        "uiTheme": "vs",
+        "path": "./themes/arlecchino-light.json"
+      },
+      {
+        "label": "Genshin Vibes: Yaksha Vigil",
+        "uiTheme": "vs-dark",
+        "path": "./themes/xiao-dark.json"
+      },
+      {
+        "label": "Genshin Vibes: Conqueror of Demons",
+        "uiTheme": "vs",
+        "path": "./themes/xiao-light.json"
       }
     ]
   },

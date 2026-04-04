@@ -1,54 +1,4 @@
 {
-  "editor.fontFamily": "Ellograph CF",
-
-  "editor.fontLigatures": true,
-  "editor.foldingHighlight": false,
-  "editor.fontWeight": "600",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.25,
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "all",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.quickSuggestions": { "strings": true },
-  "editor.colorDecorators": true,
-  "editor.colorDecoratorsActivatedOn": "clickAndHover",
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "always",
-    "source.fixAll": "always",
-    "formatter.formatWithErrors": "always"
-  },
-
-  "search.followSymlinks": false,
-  "files.autoSave": "afterDelay",
-  "files.watcherExclude": {
-    "**/.git/objects/**": false,
-    "**/.git/subtree-cache/**": false,
-    "**/node_modules/**": true
-  },
-  "files.exclude": {
-    "**/.git.bak": true,
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/node_modules": false,
-    "**/.output": true,
-    "**/.nuxt": true,
-    "**/.yarn": true,
-    ".directory": true,
-    // "*-lock.json": true,
-    ".pnp.*": true,
-    ".*rc.*": true,
-    ".*rc": true,
-    "*.log": true
-  },
-
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -57,5 +7,56 @@
   },
   "[typescript]": {
     "editor.colorDecorators": true
-  }
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "editor.codeActionsOnSave": {
+    "formatter.formatWithErrors": "always",
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+    "source.sort": "explicit"
+  },
+  "editor.colorDecorators": true,
+  "editor.colorDecoratorsActivatedOn": "clickAndHover",
+  "editor.colorDecoratorsLimit": 2000,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingHighlight": false,
+  "editor.fontFamily": "Ellograph CF",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "600",
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 1.25,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.renderLineHighlight": "all",
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    ".*rc": true,
+    ".*rc.*": true,
+    ".directory": true,
+    // "*-lock.json": true,
+    ".pnp.*": true,
+    "*.log": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.git.bak": true,
+    "**/.hg": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.svn": true,
+    "**/.yarn": true,
+    "**/CVS": true,
+    "**/node_modules": false,
+    "**/Thumbs.db": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": false,
+    "**/.git/subtree-cache/**": false,
+    "**/node_modules/**": true
+  },
+  "search.followSymlinks": false
 }

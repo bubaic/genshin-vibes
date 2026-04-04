@@ -5,3 +5,4 @@ node_modules
 generated-*
 themes
 code_samples/
+assets/palette.css

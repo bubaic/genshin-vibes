@@ -2,12 +2,17 @@
 
 All notable changes to the "genshin-vibes" extension will be documented in this file.
 
+## v1.1.0
+
+- **Added new theme — Arlecchino**: _Knave's Shadow_ (dark), _Dire Balemoon_ (light)
+- **Added new theme — Xiao**: _Yaksha Vigil_ (dark), _Conqueror of Demons_ (light)
+
 ## v1.0.3
 
-- Improved terminal & editor cursor, active tab styling with accent-based backgrounds
-- Adjusted list active and focus background opacities with added focus outline for better visual hierarchy
-- Lighten editor & terminal selection background
-- Lighten JSON property name `support.type.property-name.json`
+- **Cursor & Tab Polish**: Refined editor and terminal cursor colors; active tab now uses subtle accent-based backgrounds
+- **Selection Contrast**: Reduced opacity on editor and terminal selection backgrounds
+- **Visual Hierarchy**: Fine-tuned list active and focus background opacities, with an added focus outline for clearer navigation
+- **Syntax Clarity**: Brightened JSON property key colors for improved legibility
 
 ## v1.0.2
 
