@@ -40,20 +40,22 @@ What you get:
 
 ## 🎭 Theme Collection
 
-Currently featuring **20 themes** (10 pairs) covering Archons, Harbingers, and Travelers. Each theme uses a distinct status bar color as a character identity anchor.
+Currently featuring **24 themes** (12 pairs) covering Archons, Harbingers, and Travelers. Each theme uses a distinct status bar color as a character identity anchor.
 
-| Character    | Dark Variant           | Light Variant        |
-| :----------- | :--------------------- | :------------------- |
-| ⚡ Raiden    | Eternal Electro Throne | Violet Eternity Glow |
-| 🌿 Nahida    | Verdant Dreamweave     | Kusanali Dawnbloom   |
-| 🔶 Zhongli   | Geo Contract Vault     | Morax Golden Seal    |
-| 💧 Furina    | Hydrocourt Midnight    | Fontaine Spotlight   |
-| 🍃 Venti     | Stormrider Breeze      | Celestine Bardlight  |
-| 🔥 Mavuika   | Lava Glaze Inferno     | Sunforge Ember       |
-| ❄️ Citlali   | Frost Ritual           | Ice Oracle           |
-| 🕊️ Columbina | Veiled Harbinger       | Damselette Whisper   |
-| 🏹 Amber     | Outrider Blaze         | Pyro Scout           |
-| 🍙 Paimon    | Emergency Food         | Starry Companion     |
+| Character     | Dark Variant           | Light Variant        |
+| :------------ | :--------------------- | :------------------- |
+| ⚡ Raiden     | Eternal Electro Throne | Violet Eternity Glow |
+| 🌿 Nahida     | Verdant Dreamweave     | Kusanali Dawnbloom   |
+| 🔶 Zhongli    | Geo Contract Vault     | Morax Golden Seal    |
+| 💧 Furina     | Hydrocourt Midnight    | Fontaine Spotlight   |
+| 🍃 Venti      | Stormrider Breeze      | Celestine Bardlight  |
+| 🔥 Mavuika    | Lava Glaze Inferno     | Sunforge Ember       |
+| ❄️ Citlali    | Frost Ritual           | Ice Oracle           |
+| 🕊️ Columbina  | Veiled Harbinger       | Damselette Whisper   |
+| 🏹 Amber      | Outrider Blaze         | Pyro Scout           |
+| 🍙 Paimon     | Emergency Food         | Starry Companion     |
+| 🩸 Arlecchino | Knave's Shadow         | Dire Balemoon        |
+| 🐉 Xiao       | Yaksha Vigil           | Conqueror of Demons  |
 
 <br />
 
